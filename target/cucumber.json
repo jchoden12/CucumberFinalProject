@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2578041900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "techfios-set-background-color-functionality-validation;sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 572127300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71039900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set sky blue Background button exist",
+            "match": {
+              "location": "BackgroundColorStepDefination.Set_sky_blue_Background_button_exist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2022806600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button",
+            "match": {
+              "location": "BackgroundColorStepDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16551900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BackgroundColorStepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Techfios set Background color functionality validation",
+    "description": "",
+    "id": "techfios-set-background-color-functionality-validation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/TechfiosBackgroundColor.feature"
+  }
+]
